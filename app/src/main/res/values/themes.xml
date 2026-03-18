@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.DroidPractice1" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.DroidPractice1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Core colors -->
+        <item name="colorPrimary">@color/purple_40</item>
+        <item name="colorSecondary">@color/purple_grey_40</item>
+        <item name="colorTertiary">@color/pink_40</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <!-- For buttons -->
+        <item name="materialButtonStyle">@style/Widget.Material3.Button</item>
+    </style>
 </resources>
